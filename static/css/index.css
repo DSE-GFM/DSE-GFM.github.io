@@ -170,3 +170,8 @@ body {
 .avatars > .column {
   flex-basis: 200px;
 }
+
+.sponsors {
+  display: flex;
+  flex-wrap: wrap;
+}
