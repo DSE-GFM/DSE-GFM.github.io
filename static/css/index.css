@@ -1,5 +1,6 @@
 body {
   font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
 }
 
 
@@ -154,4 +155,19 @@ body {
 }
 #interpolation-image-wrapper img {
   border-radius: 5px;
+}
+
+
+.column {
+  float: none !important;
+  width: 100%;
+}
+
+.avatars {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.avatars > .column {
+  flex-basis: 200px;
 }
